@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/bs1.css" type="text/css">
+    <title>Go Mail</title>
+</head>
+<body class="bg-warning">
+ 
+    <div class="container d-flex align-content-center flex-column justify-content-center mt-2 mb-2" style="width: 70vw;">
+        <h1 style="font-weight: bold; font-size:50px;" class="text-center">Send Code in a Go!!!</h1>
+        <p id="msg"></p>
+    <div id="form-div">
+        <form method="POST" action="send" id="detailsform">
+            <div>
+                <form id="detailsform">
+                    <input required name="First_Name" class="form-control mt-2" id="fname" style=" font-weight: bold; font-size: 20px" type="text"
+                        placeholder="First Name" />
+                    <input required name="Last_Name" class="form-control mt-2" id="lname" style=" font-weight: bold; font-size: 20px" type="text"
+                        placeholder="Last Name" />
+                    <input required name="Email" class="form-control mt-2" id="msg" style=" font-weight: bold; font-size: 20px" type="text"
+                        placeholder="Email" />
+                    <input required name="Branch" class="form-control mt-2" id="branch" style=" font-weight: bold; font-size: 20px" type="text"
+                        placeholder="Branch" />
+                    <input required name="Registration_Number" class="form-control mt-2" id="regdno" style=" font-weight: bold; font-size: 20px" type="text"
+                        placeholder="Registration Number" />
+                    <input required name="Phone_Number" class="form-control mt-2" id="phone" style=" font-weight: bold; font-size: 20px" type="text"
+                        placeholder="Phone Number" />
+                    <input required name="Message" class="form-control mt-2" id="msg" style=" font-weight: bold; height:150px; font-size: 20px" type="text"
+                        placeholder="Submit your Code" />
+                    <button type="submit" style="display: block; font-size: larger; width:100%; font-weight: bold; border-radius: 10px; " class="btn btn-dark mx-auto mt-2">
+                        3 . . 2 . . 1 . . Send !
+                    </button>
+                </form>
+        </form>
+
+       </div>
+        
+    </div>
+
+</body>
+</html>
